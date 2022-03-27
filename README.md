@@ -65,7 +65,7 @@ This is an Application that trains a model using supervised learning and imbalan
 ## Overview of the Analysis
 
 * The purpose of the analysis is to train a model that can classify and identify the creditworthiness of borrowers
-*The dataset is of historical lending activity from a peer-to-peer lending services company, and what you are trying to predict the people who are like ly to default on a a loan.
+* The dataset is of historical lending activity from a peer-to-peer lending services company, and what you are trying to predict are the people who are likely to default on a loan.
 * The variables that is being predicted is the `y_prediction`.  I start with the `y_variable` which holds the values of the `loan_status` column and use the `value_counts` method to see the count of good and bad loans in the dataset. I use this information to build the test data for training and prediction.
 * I build two models and used `LogisticRegression` method on one, and `RandomOverSampler` on the other.
 
